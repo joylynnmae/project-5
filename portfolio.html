@@ -2,6 +2,8 @@
 <html lang="en-us">
 
     <head>
+        <meta name="description" content="Joylynn Del Rosario's Projects">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <title>Joylynn's Final Project</title>
         <link rel="stylesheet" href="style.css">
@@ -21,19 +23,25 @@
                 font-family: Verdana, Geneva, Tahoma, sans-serif
             }
 
-            #list{
-                text-align-last: center;
-                display: flex;
-                gap: 1rem;
-                list-style: none; 
-                padding: 10;
-                margin: 0;
-                margin-left: 35%;
-                margin-top: 5%;
-                margin-bottom: 5%;
-                font-size: 30px;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
+            .main{
+                display:flex; 
+                justify-content:center;
+                align-items: center;
+                list-style: none;
+                padding: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 25px;
+            }
+            
+            .main li a{
+                text-decoration: none;
+                color:aliceblue;
+                padding: 10px 15px; 
+                border-radius: 5px;
+            }
+            
+            .main li a:hover{
+                background-color: blue
             }
             
             #first{
@@ -62,8 +70,48 @@
                 margin-left: 25%;
                 margin-top: 2%
             }
+            #third{
+                margin: 0;
+                border: 5px solid white;
+                background-color: rgb(87, 161, 255);
+                color: white;
+                text-align-last: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size:1.2em;
+                padding: 2%; 
+                width: 50%;
+                margin-left: 25%;
+                margin-top: 2%
+            }
             
-            #resources{
+            #fourth{
+                margin: 0;
+                border: 5px solid white;
+                background-color: rgb(87, 161, 255);
+                color: white;
+                text-align-last: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size:1.2em;
+                padding: 2%; 
+                width: 50%;
+                margin-left: 25%;
+                margin-top: 2%
+            }
+            
+            #fifth{
+                margin: 0;
+                border: 5px solid white;
+                background-color: rgb(87, 161, 255);
+                color: white;
+                text-align-last: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size:1.2em;
+                padding: 2%; 
+                width: 50%;
+                margin-left: 25%;
+                margin-top: 2%
+            }
+            #foot{
                 margin: 0;
                 border: 5px solid white;
                 background-color: rgb(87, 161, 255);
@@ -81,39 +129,59 @@
     
     <body>
         <section id="beginning">
-            <h1>Joylynn Del Rosario</h1>
+            <h1>Joylynn's Projects</h1>
         </section>
         
-        <section id="list">
+        
         <nav>
-            <ul>
+            <ul  class="main">
                 <li><a href="index.html">About Me</a></li>
                 <li><a href="portfolio.html">My Projects</a></li>
             </ul>
         </nav>
-        </section>
+    
         
         <section id="first">
-            <h2>Project 1</h2>
-            <p><img src="joylynn-selfie.JPG" width="300" alt="selfie of joylynn while on a train"></p>
+            <h2>Project 1: Resume</h2>
+            <p><img src="RESUME.png" width="300" alt="word that spells out resume project one on an image"></p>
+            <p>This is one of our first projects that we had to do for this class. I remember thinking at the time that this was the hardest thing I have ever done for a project. Then next week, it was an even more harder assignment and this felt like a breeze. I remember finally getting the structure of how to make a HTML site by doing this Resume project, and when the keys started to flow, it was really satisfying seeing what I made.</p>
+            <a href="https://joylynnmae.github.io/project-1/" target="_blank">Visit Site Here</a>
+
         </section>
         
         <section id="second">
-            <h2>Project 2</h2>
+            <h2>Project 2: My Top 5</h2>
+            <p><img src="my-top-5.png" width="300" alt="word that spells out my top 5 and project 2"></p>
+            <p>This project was relatively easy for me. The concepts were easy to grasp and I was able to play around with my favorite colors. I enjoyed making this project because it felt just like the resume project. It was repetitve in a good way. It helped me remember all the tags and what order they all go in. This is where we learned about floating. It was hard at first but I watched the video like 3 times and I was able to get it. </p>
+            <a href="https://joylynnmae.github.io/projectt-2/" target="_blank">Visit Site Here</a>   
         </section>
         
-       
+        <section id="third">
+            <h2>Project 3: Favorite City</h2>
+            <p><img src="fav-city.png" width="300" alt="word that spells out fav city and project 3"></p>
+            <p>This project was a little harder. There were really no videos to go off of. I just started to look back on my previous work and used what I learned from those projects to make this one. I feel like there were a lot of elements in this project, I didn't really care for the color scheme. Overall, proud of how it turned out even of how frustrated I was.</p>
+            <a href="https://joylynnmae.github.io/project-3/" target="_blank">Visit Site Here</a>       
+        </section>
         
-        <section id="resources">
-            <h2>Resources</h2>
-            <h3>Images</h3>
-            <nav>
-                <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/Never_Enough_%28Daniel_Caesar_album%29">Never Enough Album Photo</a></li>
-                </ul>
-            </nav>
-            <footer> &copy; 2025 Joylynn Del Rosario BATECH 189 Final Project
-            </footer>
+        <section id="fourth">
+            <h2>Project 4: E-Book</h2>
+            <p><img src="e-book.png" width="300" alt="word that spells out e-book and prokect 4"></p>
+            <p >This project was a lot for me. I was having a really hard time with how much single elements were needed for this project however, I was able to get the bare minimum on the page which I was really proud of. It may not look as pretty as the other ones I have done, but Im just glad I was able to push through. I practiced more on how to wrap the text with the images. We also touched on flex box, which I also used on this page if you look at the menu buttons on the top of this page. </p>
+            <a href="https://joylynnmae.github.io/project-4/" target="_blank">Visit Site Here</a>
+        </section>
+        
+        <section id="fifth">
+            <h2>Labwork 3</h2>
+            <p><img src="lab-3.png" width="300" alt="word that spells out lab3"></p>
+            <p>This lab was one of the first things I had to do in this class. I found it fun since it had a step by step which really helped me put an action to a name. This really helped me understand the concepts.</p>
+            <a href="https://joylynnmae.github.io/lab3/" target="_blank">Visit Site Here</a>
+        </section>
+        
+         
+        <section id="foot">
+             <footer>
+            &copy; 2025 Joylynn Del Rosario BATECH 189 Final Project
+        </footer>
         </section>
     </body>
 </html>

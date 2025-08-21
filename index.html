@@ -2,8 +2,10 @@
 <html lang="en-us">
 
     <head>
+        <meta name="description" content="Joylynn Del Rosario's Final Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
-        <title>Joylynn's Top 5</title>
+        <title>Joylynn's Final Project</title>
         <link rel="stylesheet" href="style.css">
         <style>
             body{
@@ -20,20 +22,26 @@
                 text-align-last: center;
                 font-family: Verdana, Geneva, Tahoma, sans-serif
             }
-
-            #list{
-                text-align-last: center;
-                display: flex;
-                gap: 1rem;
-                list-style: none; 
-                padding: 10;
-                margin: 0;
-                margin-left: 35%;
-                margin-top: 5%;
-                margin-bottom: 5%;
-                font-size: 30px;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-                color: white;
+            
+            .main{
+                display:flex; 
+                justify-content:center;
+                align-items: center;
+                list-style: none;
+                padding: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 25px;
+            }
+            
+            .main li a{
+                text-decoration: none;
+                color:aliceblue;
+                padding: 10px 15px; 
+                border-radius: 5px;
+            }
+            
+            .main li a:hover{
+                background-color: blue;
             }
             
             #first{
@@ -63,7 +71,7 @@
                 margin-top: 2%
             }
             
-            #resources{
+            #foot{
                 margin: 0;
                 border: 5px solid white;
                 background-color: rgb(87, 161, 255);
@@ -76,6 +84,8 @@
                 margin-left: 30%;
                 margin-top: 2%;
             }
+            
+            
         </style>
     </head>
     
@@ -84,14 +94,13 @@
             <h1>Joylynn Del Rosario</h1>
         </section>
         
-        <section id="list">
         <nav>
-            <ul>
+            <ul class="main">
                 <li><a href="index.html">About Me</a></li>
                 <li><a href="portfolio.html">My Projects</a></li>
             </ul>
         </nav>
-        </section>
+       
         
         <section id="first">
             <h2>About Me</h2>
@@ -108,16 +117,10 @@
         
        
         
-        <section id="resources">
-            <h2>Resources</h2>
-            <h3>Images</h3>
-            <nav>
-                <ul>
-                    <li><a href="https://en.wikipedia.org/wiki/Never_Enough_%28Daniel_Caesar_album%29">Never Enough Album Photo</a></li>
-                </ul>
-            </nav>
-            <footer> &copy; 2025 Joylynn Del Rosario BATECH 189 Final Project
-            </footer>
+        <section id="foot">
+             <footer>
+            &copy; 2025 Joylynn Del Rosario BATECH 189 Final Project
+        </footer>
         </section>
     </body>
 </html>
